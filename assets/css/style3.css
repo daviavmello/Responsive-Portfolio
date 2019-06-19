@@ -1,0 +1,136 @@
+   body {
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+   p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.topnav {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    overflow: hidden;
+}
+.topnavcontent {
+    width: 960px;
+    margin: 0 auto;
+}
+.home {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    padding: 50px;
+    width: 140px;
+    text-align: center;
+    float: left;
+}
+.home a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+.nav {
+    margin: 0 auto;
+    float: right;
+    padding: 50px 0 50px 0;
+    display: -webkit-box;
+}
+.nav a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777777;
+    padding: 20px;
+}
+.portfolio {
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+}
+.main {
+    width: 910px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    min-height: 100%;
+    height: -webkit-fill-available;
+}
+h1 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #dddddd;
+}
+img {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 220px;
+    height: 160px;
+    margin: 20px 40px 40px 0;
+}
+.imagegallery {
+    display: inline-block;
+}
+.box1 {
+    margin-top: 110px;
+    height: 60px;
+    width: 220px;
+    z-index: 1;
+    background-color: #4aaaa5;
+    position: absolute;
+}
+.box2 {
+    height: 60px;
+    width: 220px;
+    z-index: 1;
+    background-color: #4aaaa5;
+    position: absolute;
+}
+.box3 {
+    height: 60px;
+    width: 220px;
+    z-index: 1;
+    background-color: #4aaaa5;
+    position: absolute;
+}
+.box4 {
+    height: 60px;
+    width: 220px;
+    z-index: 1;
+    background-color: #4aaaa5;
+    position: absolute;
+}
+.box5 {
+    height: 60px;
+    width: 220px;
+    z-index: 1;
+    background-color: #4aaaa5;
+    position: absolute;
+}
+.first {
+    float: left;
+}
+.second {
+    float: right;
+}
+.third {
+    float: left;
+    clear: both;
+}
+.forth {
+    float: right;
+}
+.fifth {
+    float: left;
+    clear: both;
+}
+.footer {
+    clear: both;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    background-color: #666666;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    border-top: 8px solid #4aaaa5;
+}
