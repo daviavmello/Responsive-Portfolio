@@ -53,7 +53,7 @@ h1 {
     padding-bottom: 20px;
     border-bottom: 2px solid #dddddd;
 }
-form {
+.form {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     font-size: 18px;
@@ -86,3 +86,57 @@ input[type=text] {
     margin-top: 20px;
     border-top: 8px solid #4aaaa5;
 }
+@media screen and (max-width: 980px) {
+    .header {
+        width: 100%;
+        display: block;
+    }
+    .topnavcontent {
+        width: 100%;
+    }
+    .main {
+        width: auto;
+    }
+    .form {
+        width: auto; 
+    }
+    input[type=text] {
+        width: 100%;
+    }
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+    .topnavcontent {
+        width: 100%;
+    }
+    .main {
+        width: auto;
+    }
+    .form {
+        width: auto; 
+    }
+    input[type=text] {
+        width: 100%;
+    }
+
+@media screen and (max-width: 640px) {
+    .header {
+        width: 100%;
+    }
+    .topnavcontent {
+        width: 100%;
+    }
+    .home {
+        width: min-content;
+    }
+    .main {
+        width: auto;
+    }
+    .form {
+        width: auto; 
+    }
+    input[type=text] {
+        width: 100%;
+    }
