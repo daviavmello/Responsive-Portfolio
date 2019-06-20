@@ -177,14 +177,27 @@ img {
         width: 100%;
     }
     .home {
-        width: min-content;
+        width: 100%;
+        padding: 50px 0;
     }
     .main {
         width: auto;
     }
-    .form {
-        width: auto; 
+    .imagegallery {
+        display: grid;
     }
-    input[type=text] {
+    .first, .second, .third, .forth, .fifth {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+    img {
+        margin: 20px 0 40px 0;
+    }
+    .nav {
         width: 100%;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        display: inline-block;
     }
